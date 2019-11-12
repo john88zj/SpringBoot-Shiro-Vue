@@ -1,18 +1,7 @@
-#spring:
-#  datasource:
-#      url: jdbc:mysql://localhost:3306/example?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-#      username: root
-#      password: root
-#mybatis:
-#   mapperLocations: classpath:/mapper/*.xml
-
 spring:
   datasource:
-    url: jdbc:sqlite:info.db
-    driver-class-name: org.sqlite.JDBC
-
+      url: jdbc:mysql://localhost:3306/example?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: root
+      password: root
 mybatis:
-  mapperLocations: classpath:/mapper/*.xml
-
-server:
-  port: 8081
+   mapperLocations: classpath:/mapper/*.xml
